@@ -2,8 +2,8 @@ This package is designed as a wrapper to perform all desired pairwise comparison
 
 Functions:
 
-- Note2GO: turns protein annotation file (typical eggnog format) to term2gene and term2name needed for GSEA and ORA analysis
-- DISect2: takes both a sample metadata file and the path of count files to perform DESeq2 + GSEA (it can handle htseqcounts or kallisto h5), making all possible comparisons for a given vector. A subvector can also be specified (subgroup that is used to split the count matrix and compare on each group of the main vector)
+- Note2GO: turns a protein annotation file (typical eggnog format) into two tables in the format required for GSEA and ORA analysis (term2gene and a term2name).
+- DISect2: takes both a sample metadata file and the path to the count files to perform DESeq2 + GSEA (it can handle htseqcounts or kallisto h5), making all possible comparisons for a given vector. A subvector can also be specified (subgroup that is used to split the count matrix and compare on each group of the main vector)
 
 sample table format:
 -
